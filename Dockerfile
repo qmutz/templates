@@ -1,4 +1,4 @@
-FROM nginx:stable-alpine
+FROM nginx:mainline-alpine
 
 COPY templates.json /usr/share/nginx/html/templates.json
 
